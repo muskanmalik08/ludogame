@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>
+        Ludo Game
+    </title>
+
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1 id="level-title">
+        Press a key to start.
+    </h1>
+
+    <table class="table1">
+        <tr class="full">
+            <th>
+                <div class="box box1 box11 glowA"></div>
+            </th>
+            <th>
+                <div class="box box1 box12"></div>
+            </th>
+            <th>
+                <div class="box box1 box13"></div>
+            </th>
+            <th>
+                <div class="box box1 box14"></div>
+            </th>
+            <th>
+                <div class="box box1 box15"></div>
+            </th>
+            <th>
+                <div class="box box1 box16"></div>
+            </th>
+            <th>
+                <div class="box box1 box17"></div>
+            </th>
+            <th>
+                <div class="box box1 box18"></div>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div class="box box1 box77"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box box1 box28"></div>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div class="box box1 box67"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box box1 box38"></div>
+            </th>
+        </tr>
+    </table>
+    <table class="table2">
+        <tr>
+            <th>
+                <div class="box box1 box57"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box wide" id="turn" style="color:white; text-align: center;">TURN: Player A</div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box box1 box48"></div>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div class="box box1 box47"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box wide btn"><button type="button">Roll!</button></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box box1 box58"></div>
+            </th>
+        </tr>
+    </table>
+    <table class="table3">
+        <tr>
+            <th>
+                <div class="box box1 box37"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box box1 box68"></div>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div class="box box1 box27"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box"></div>
+            </th>
+            <th>
+                <div class="box box1 box78"></div>
+            </th>
+        </tr>
+        <tr class="full">
+            <th>
+                <div class="box box1 box87"></div>
+            </th>
+            <th>
+                <div class="box box1 box86"></div>
+            </th>
+            <th>
+                <div class="box box1 box85"></div>
+            </th>
+            <th>
+                <div class="box box1 box84"></div>
+            </th>
+            <th>
+                <div class="box box1 box83"></div>
+            </th>
+            <th>
+                <div class="box box1 box82"></div>
+            </th>
+            <th>
+                <div class="box box1 box81"></div>
+            </th>
+            <th>
+                <div class="box box1 box88 glowB"></div>
+            </th>
+        </tr>
+    </table>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="ludo.js" charset="utf-8"></script>
+</body>
+
+</html>

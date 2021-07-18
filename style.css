@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(39, 39, 39);
+}
+
+text {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.table1 {
+  width: 320px;
+  margin: auto;
+}
+
+.table2 {
+  width: 320px;
+  margin: auto;
+}
+
+.table3 {
+  width: 320px;
+  margin: auto;
+}
+
+.box1 {
+  border: 1px solid white;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+.wide {
+  width: 80px;
+}
+
+.glowA {
+  background-color: aliceblue;
+}
+
+.glowB {
+  background-color: aquamarine;
+}
